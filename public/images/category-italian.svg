@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400">
+  <rect width="400" height="400" rx="36" fill="#ffe4ec"/>
+  <circle cx="200" cy="160" r="84" fill="#ff2b85" opacity="0.16"/>
+  <text x="200" y="180" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="34" font-weight="700" fill="#ff2b85">Italian</text>
+  <text x="200" y="225" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="18" fill="#7a1848">Fresh pasta & pizza</text>
+</svg>
