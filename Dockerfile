@@ -28,5 +28,5 @@ COPY docker/nginx.conf /etc/nginx/nginx.conf
 COPY docker/start.sh /start.sh
 RUN chmod +x /start.sh
 
-EXPOSE 80
+EXPOSE 8080
 CMD ["/start.sh"]
