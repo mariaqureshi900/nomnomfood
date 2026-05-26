@@ -16,7 +16,7 @@ COPY . .
 RUN composer dump-autoload --optimize
 
 ### Final stage: PHP-FPM + Nginx
-FROM php:8.2-fpm-alpine
+FROM php:8.4-fpm-alpine
 RUN apk add --no-cache nginx bash shadow tzdata libzip-dev icu-dev oniguruma-dev zlib-dev curl
 RUN docker-php-ext-install pdo pdo_mysql zip intl mbstring opcache
 
